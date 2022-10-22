@@ -405,7 +405,7 @@ def award_id_extractor_preprocessor(df, n_cores = mp.cpu_count()-1):
         with open(f'{folder}/acronyms.txt', 'r') as input_file:
             acronyms = input_file.read().splitlines()
         agencies = pd.read_csv(f'{folder}/agencies.tsv', sep='\t')
-        nih_institutes = pd.read_csv('nih_institutes.tsv', sep='\t')
+        nih_institutes = pd.read_csv(f'{folder}/nih_institutes.tsv', sep='\t')
         zipcodes = pd.read_csv(f'{folder}/zipcodes.tsv', sep='\t')
     except:
         print(('Some needed file is lacking\n'
