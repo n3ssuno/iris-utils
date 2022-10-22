@@ -13,6 +13,7 @@ Also run, in the Python, the following commands:
 * ``> nltk.download('punkt') # used by nlp.py``
 * ``> nltk.download('words') # used by award_id.py``
 * ``> nltk.download('wordnet') # used by award_id.py``
+* ``> nltk.download('omw-1.4') # used by award_id.py``
 
 ## Acknowledgements
 The authors thank the EuroTech Universities Alliance for sponsoring this work. Carlo Bottai was supported by the European Union's Marie Skłodowska-Curie programme for the project Insights on the "Real Impact" of Science (H2020 MSCA-COFUND-2016 Action, Grant Agreement No 754462).
